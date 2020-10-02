@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\wassi\\Documents\\Sogeti\\tech-assessment\\CSharp\\CSharp.csproj": {}
+    "C:\\Users\\15105\\Documents\\GitHub\\tech-assessment\\CSharp\\CSharp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\wassi\\Documents\\Sogeti\\tech-assessment\\CSharp\\CSharp.csproj": {
+    "C:\\Users\\15105\\Documents\\GitHub\\tech-assessment\\CSharp\\CSharp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\wassi\\Documents\\Sogeti\\tech-assessment\\CSharp\\CSharp.csproj",
+        "projectUniqueName": "C:\\Users\\15105\\Documents\\GitHub\\tech-assessment\\CSharp\\CSharp.csproj",
         "projectName": "CSharp",
-        "projectPath": "C:\\Users\\wassi\\Documents\\Sogeti\\tech-assessment\\CSharp\\CSharp.csproj",
-        "packagesPath": "C:\\Users\\wassi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\wassi\\Documents\\Sogeti\\tech-assessment\\CSharp\\obj\\",
+        "projectPath": "C:\\Users\\15105\\Documents\\GitHub\\tech-assessment\\CSharp\\CSharp.csproj",
+        "packagesPath": "C:\\Users\\15105\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\15105\\Documents\\GitHub\\tech-assessment\\CSharp\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\wassi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\15105\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,11 +22,16 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dotnetJB/_packaging/dotnetJB/nuget/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\15105\\Documents\\GitHub\\tech-assessment\\Data\\Orders.Data.csproj": {
+                "projectPath": "C:\\Users\\15105\\Documents\\GitHub\\tech-assessment\\Data\\Orders.Data.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -40,6 +42,22 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.8, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -58,7 +76,123 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\15105\\Documents\\GitHub\\tech-assessment\\Data\\Orders.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\15105\\Documents\\GitHub\\tech-assessment\\Data\\Orders.Data.csproj",
+        "projectName": "Orders.Data",
+        "projectPath": "C:\\Users\\15105\\Documents\\GitHub\\tech-assessment\\Data\\Orders.Data.csproj",
+        "packagesPath": "C:\\Users\\15105\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\15105\\Documents\\GitHub\\tech-assessment\\Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\15105\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dotnetJB/_packaging/dotnetJB/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {
+              "C:\\Users\\15105\\Documents\\GitHub\\tech-assessment\\Orders.Domain\\Orders.Domain.csproj": {
+                "projectPath": "C:\\Users\\15105\\Documents\\GitHub\\tech-assessment\\Orders.Domain\\Orders.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\15105\\Documents\\GitHub\\tech-assessment\\Orders.Domain\\Orders.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\15105\\Documents\\GitHub\\tech-assessment\\Orders.Domain\\Orders.Domain.csproj",
+        "projectName": "Orders.Domain",
+        "projectPath": "C:\\Users\\15105\\Documents\\GitHub\\tech-assessment\\Orders.Domain\\Orders.Domain.csproj",
+        "packagesPath": "C:\\Users\\15105\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\15105\\Documents\\GitHub\\tech-assessment\\Orders.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\15105\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dotnetJB/_packaging/dotnetJB/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

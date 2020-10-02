@@ -1,0 +1,12 @@
+C:\Users\15105\Documents\GitHub\tech-assessment\Data\bin\Debug\netstandard2.1\Orders.Data.deps.json
+C:\Users\15105\Documents\GitHub\tech-assessment\Data\bin\Debug\netstandard2.1\Orders.Data.dll
+C:\Users\15105\Documents\GitHub\tech-assessment\Data\obj\Debug\netstandard2.1\Orders.Data.csprojAssemblyReference.cache
+C:\Users\15105\Documents\GitHub\tech-assessment\Data\obj\Debug\netstandard2.1\Orders.Data.AssemblyInfoInputs.cache
+C:\Users\15105\Documents\GitHub\tech-assessment\Data\obj\Debug\netstandard2.1\Orders.Data.AssemblyInfo.cs
+C:\Users\15105\Documents\GitHub\tech-assessment\Data\bin\Debug\netstandard2.1\Orders.Data.pdb
+C:\Users\15105\Documents\GitHub\tech-assessment\Data\bin\Debug\netstandard2.1\Orders.Domain.dll
+C:\Users\15105\Documents\GitHub\tech-assessment\Data\bin\Debug\netstandard2.1\Orders.Domain.pdb
+C:\Users\15105\Documents\GitHub\tech-assessment\Data\obj\Debug\netstandard2.1\Orders.Data.csproj.CoreCompileInputs.cache
+C:\Users\15105\Documents\GitHub\tech-assessment\Data\obj\Debug\netstandard2.1\Orders.Data.csproj.CopyComplete
+C:\Users\15105\Documents\GitHub\tech-assessment\Data\obj\Debug\netstandard2.1\Orders.Data.dll
+C:\Users\15105\Documents\GitHub\tech-assessment\Data\obj\Debug\netstandard2.1\Orders.Data.pdb
